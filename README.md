@@ -14,5 +14,5 @@ Each voice is represented in mel-spectrogram with 40 dimensions. Because the len
 ## Model architecture
 
 ## Results
-
+![image](https://github.com/Wen-ChuangChou/Speaker-identification/blob/main/results.png)
 ## 
