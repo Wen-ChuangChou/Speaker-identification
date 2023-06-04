@@ -14,5 +14,14 @@ Each voice is represented in mel-spectrogram with 40 dimensions. Because the len
 ## Model architecture
 
 ## Results
+The best results of accurancy rate so far reaches 53.94%
 ![image](https://github.com/Wen-ChuangChou/Speaker-identification/blob/main/results.png)
-## 
+
+## Acknowledgment
+I an grateful to the Center for Information Services and High Performance Computing [Zentrum für Informationsdienste und Hochleistungsrechnen (ZIH)] at TU Dresden for providing its facilities for high throughput calculations.
+
+## Reference
+1. A. Vaswani et al., “Attention Is All You Need,” arXiv:1706.03762, Jun 2017. https://arxiv.org/abs/1706.03762
+2. A. Gulati et al., “Conformer: Convolution-augmented Transformer for Speech Recognition,” arXiv:2005.08100 , May 2020, https://arxiv.org/abs/2005.08100
+
+‌
