@@ -18,6 +18,7 @@ Each voice recording is represented as a mel-spectrogram with 40 dimensions. Bec
 The best results of accurancy rate so far reaches 53.94%
 
 ![image](https://github.com/Wen-ChuangChou/Speaker-identification/blob/main/results.png)
+![image](https://github.com/Wen-ChuangChou/Speaker-identification/blob/doc/fig/results.png?raw=true)
 
 ## Acknowledgment
 I an grateful to the Center for Information Services and High Performance Computing [Zentrum für Informationsdienste und Hochleistungsrechnen (ZIH)] at TU Dresden for providing its facilities for high throughput calculations. Part of code snippets are retrieved from the assignment of machine learning course lectured by Prof. Hung-yi Lee at National Taiwan University.
