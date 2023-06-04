@@ -17,8 +17,6 @@ Each voice recording is represented as a mel-spectrogram with 40 dimensions. Bec
 ## Results
 The best results of accurancy rate so far reaches 53.94%
 
-![image](https://github.com/Wen-ChuangChou/Speaker-identification/blob/main/results.png)
-
 ![image](https://github.com/Wen-ChuangChou/Speaker-identification/blob/main/doc/fig/results.png?raw=true)
 
 ## Acknowledgment
