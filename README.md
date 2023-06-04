@@ -4,7 +4,7 @@
 Identifying speakers of the voice from [VoxCeleb2 Dataset](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html) by the encoder of the transformer.
 
 ## Dataset
-- Label: 600 speakers are used in this project, and each voice is labelled by one speaker (class).
+- Label: Each voice is labelled by one of 600 speakers (class).
 - Training data: 56666 voice with labels are training data.
 - Testing data: 4000 voice without labels are testing data.
 
