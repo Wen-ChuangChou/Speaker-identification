@@ -1,15 +1,16 @@
-# Speaker-identification
+# Speaker Identification
 
 ## Task
-Identifying speakers of the voice from [VoxCeleb2 Dataset](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html) by the encoder of the transformer.
+The task at hand is to identify speakers in the voice recordings from the [VoxCeleb2 Dataset](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html) using the transformer encoder.
+Identifying speakers of the voice from  by the encoder of the transformer.
 
 ## Dataset
-- Label: Each voice is labelled by one of 600 speakers (class).
-- Training data: 56666 voice with labels are training data.
-- Testing data: 4000 voice without labels are testing data.
+- Label: Each voice recording is assigned a label corresponding to one of the 600 speakers (classes).
+- Training data: There are 56,666 voice recordings with assigned labels for training.
+- Testing data: There are 4,000 voice recordings without labels for testing.
 
 ## Voice prepocessing
-Each voice is represented in mel-spectrogram with 40 dimensions. Because the length of each voice is different, fixed segment (128x15ms) is randomly extracted in each voice as input data.
+Each voice recording is represented as a mel-spectrogram with 40 dimensions. Because the length of each voice recording varies, a fixed segment of 128x15ms is randomly extracted from each recording to serve as input data.
 
 ## Model architecture
 
