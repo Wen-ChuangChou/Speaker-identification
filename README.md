@@ -8,7 +8,7 @@ Identifying speakers of the voice from  by the encoder of the transformer.
 - Label: Each voice recording is assigned a label corresponding to one of the 600 speakers (classes).
 - Training data: 90% of the 56,666 voice recordings are used for training and have assigned labels.
 - Validating data: 10% of the 56,666 voice recordings are used for validation and have assigned labels.
-- Testing data: There are 4,000 voice recordings without labels for testing.
+<!--- Testing data: There are 4,000 voice recordings without labels for testing.-->
 
 ## Voice prepocessing
 Each voice recording is represented as a mel-spectrogram with 40 dimensions. Because the length of each voice recording varies, a fixed segment of 128x15ms is randomly extracted from each recording to serve as input data.
