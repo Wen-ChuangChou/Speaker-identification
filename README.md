@@ -21,6 +21,8 @@ The accurancy rate reaches 53.94% when only one transformer encoder layer is imp
 The accurancy rate reaches 66.49% when two transformer encoder layers are implemented.
 ![image](https://github.com/Wen-ChuangChou/Speaker-identification/blob/main/doc/fig/acc_2_transform_layers.png?raw=true)
 
+The accurancy rate reaches 72.95% when two transformer encoder layers are implemented, and the number of expected features in the input (d_model) increase from 80 to 256.
+![image](https://github.com/Wen-ChuangChou/Speaker-identification/blob/main/doc/fig/acc_2_transform_layers_increase_d_model.png?raw=true)
 
 ## Requirements
 PyTorch 1.8.1  
