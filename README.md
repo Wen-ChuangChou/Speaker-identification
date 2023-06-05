@@ -6,7 +6,8 @@ Identifying speakers of the voice from  by the encoder of the transformer.
 
 ## Dataset
 - Label: Each voice recording is assigned a label corresponding to one of the 600 speakers (classes).
-- Training data: There are 56,666 voice recordings with assigned labels for training.
+- Training data: There are 90% of 56,666 voice recordings with assigned labels for training.
+- Validating data: There are 10% of 56,666 voice recordings with assigned labels for validating.
 - Testing data: There are 4,000 voice recordings without labels for testing.
 
 ## Voice prepocessing
