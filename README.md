@@ -20,7 +20,7 @@ The best results of accurancy rate so far reaches 53.94%
 ![image](https://github.com/Wen-ChuangChou/Speaker-identification/blob/main/doc/fig/results.png?raw=true)
 
 ## Requirements
-PyTorch 1.8.1\s\s
+PyTorch 1.8.1  
 tqdm 4.65.0
 
 ## Acknowledgment
