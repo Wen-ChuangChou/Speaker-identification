@@ -15,10 +15,10 @@ Each voice recording is represented as a mel-spectrogram with 40 dimensions. Bec
 ## Model architecture
 
 ## Results
-The best results of accurancy rate reaches 53.94% when one transformer encoder layer is implemented.
+The accurancy rate reaches 53.94% when one transformer encoder layer is implemented.
 ![image](https://github.com/Wen-ChuangChou/Speaker-identification/blob/main/doc/fig/acc_1_transform_layer.png?raw=true)
 
-The best results of accurancy rate reaches 66.49% when two transformer encoder layers are implemented.
+The accurancy rate reaches 66.49% when two transformer encoder layers are implemented.
 ![image](https://github.com/Wen-ChuangChou/Speaker-identification/blob/main/doc/fig/acc_2_transform_layers.png?raw=true)
 
 
