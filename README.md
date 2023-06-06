@@ -1,6 +1,7 @@
 # Speaker Identification
 
 ## Task
+
 The task at hand is to identify speakers in the voice recordings from the [VoxCeleb2 Dataset](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html) using the transformer encoder.
 Identifying speakers of the voice from  by the encoder of the transformer.
 
@@ -16,13 +17,13 @@ Each voice recording is represented as a mel-spectrogram with 40 dimensions. Bec
 ## Model architecture
 
 ## Results
-The accurancy rate reaches 53.94% when only one transformer encoder layer is implemented.
+The accuracy rate reaches *53.94%* when implementing only one layer of the transformer encoder.  
 ![image](https://github.com/Wen-ChuangChou/Speaker-identification/blob/main/doc/fig/acc_1_transform_layer.png?raw=true)
 
-The accurancy rate reaches 66.49% when two transformer encoder layers are implemented.
+When implementing two layers of the transformer encoder, the accuracy rate increases to *66.49%*.  
 ![image](https://github.com/Wen-ChuangChou/Speaker-identification/blob/main/doc/fig/acc_2_transform_layers.png?raw=true)
 
-The accurancy rate reaches 72.95% when two transformer encoder layers are implemented, and the number of expected features in the input (d_model) increases from 80 to 256.  
+By implementing two layers of the transformer encoder and increasing the number of expected features in the input (d_model) from 80 to 256, the accuracy rate further improves to *72.95%*.  
 ![image](https://github.com/Wen-ChuangChou/Speaker-identification/blob/main/doc/fig/acc_2_transform_layers_increase_d_model.png?raw=true)
 
 The accurancy rate reaches 77.24% when the above hyperparameters are the same, but the number of heads increases from 4 to 64. 
