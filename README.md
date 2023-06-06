@@ -25,7 +25,7 @@ The accurancy rate reaches 66.49% when two transformer encoder layers are implem
 The accurancy rate reaches 72.95% when two transformer encoder layers are implemented, and the number of expected features in the input (d_model) increases from 80 to 256.
 ![image](https://github.com/Wen-ChuangChou/Speaker-identification/blob/main/doc/fig/acc_2_transform_layers_increase_d_model.png?raw=true)
 
-The accurancy rate reaches 77.24% when the above hyperparameters are the same, but the number of heads increases from 4 to 64.
+The accurancy rate reaches 77.24% when the above hyperparameters are the same, but the number of heads increases from 4 to 64. 
 ![image](https://github.com/Wen-ChuangChou/Speaker-identification/blob/main/doc/fig/acc_2_transform_layers_increase_d_model_increase_head.png?raw=true)
 
 ## Requirements
