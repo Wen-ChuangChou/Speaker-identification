@@ -1,5 +1,3 @@
-# Speaker Identification
-
 ## Task
 The task at hand is to identify speakers in the voice recordings from the [VoxCeleb2 Dataset](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html) using the transformer encoder.
 Identifying speakers of the voice from  by the encoder of the transformer.
@@ -28,7 +26,7 @@ By implementing two layers of the transformer encoder and increasing the number 
 Maintaining the above hyperparameters but increasing the number of heads from 4 to 64 results in an accuracy rate of **77.24%**.  
 ![image](https://github.com/Wen-ChuangChou/Speaker-identification/blob/main/doc/fig/acc_2_transform_layers_increase_d_model_increase_head.png?raw=true)
 
-It is important to note that increasing the values of the above hyperparameters does not improve the performance of the model.
+It is important to note that further increasing the values of the above hyperparameters does not significantly improve the performance of the model.
 
 ## Requirements
 PyTorch 1.8.1  
