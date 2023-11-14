@@ -1,3 +1,5 @@
+# Speaker Identification using a transformer encoder
+
 ## Task
 The task at hand is to identify speakers in the voice recordings from the [VoxCeleb2 Dataset](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html) using the transformer encoder.
 Identifying speakers of the voice from  by the encoder of the transformer.
