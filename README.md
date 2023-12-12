@@ -30,6 +30,10 @@ Maintaining the above hyperparameters but increasing the number of heads from 4 
 
 It is important to note that further increasing the values of the above hyperparameters does not significantly improve the performance of the model.
 
+### Utilizing Conformer encoder
+![image](https://github.com/Wen-ChuangChou/Speaker-identification/blob/main/doc/fig/acc_conformer_layer_3_head_32%20.png)
+
+
 ### Utilizing conformer encoder
 
 ## Requirements
