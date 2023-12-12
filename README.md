@@ -1,6 +1,7 @@
+# Using transformer encoders to identify speakers
+
 ## Task
-The task at hand is to identify speakers in the voice recordings from the [VoxCeleb2 Dataset](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html) using the transformer encoder.
-Identifying speakers of the voice from  by the encoder of the transformer.
+The task at hand is to identify speakers in the voice recordings from the [VoxCeleb2 Dataset](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html) using the transformer and conformer encoders.
 
 ## Dataset
 - Label: Each voice recording is assigned a label corresponding to one of the 600 speakers (classes).
@@ -14,6 +15,7 @@ Each voice recording is represented as a mel-spectrogram with 40 dimensions. Bec
 ## Model architecture
 
 ## Results
+### Utilizing transformer encoder
 The accuracy rate reaches **53.94%** when implementing only one layer of the transformer encoder.  
 ![image](https://github.com/Wen-ChuangChou/Speaker-identification/blob/main/doc/fig/acc_1_transform_layer.png?raw=true)
 
@@ -27,6 +29,12 @@ Maintaining the above hyperparameters but increasing the number of heads from 4 
 ![image](https://github.com/Wen-ChuangChou/Speaker-identification/blob/main/doc/fig/acc_2_transform_layers_increase_d_model_increase_head.png?raw=true)
 
 It is important to note that further increasing the values of the above hyperparameters does not significantly improve the performance of the model.
+
+### Utilizing Conformer encoder
+![image](https://github.com/Wen-ChuangChou/Speaker-identification/blob/main/doc/fig/acc_conformer_layer_3_head_32%20.png)
+
+
+### Utilizing conformer encoder
 
 ## Requirements
 PyTorch 1.8.1  
