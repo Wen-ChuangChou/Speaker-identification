@@ -32,6 +32,7 @@ It is important to note that further increasing the values of the above hyperpar
 
 ### Utilizing Conformer encoder
 After implementing conformer encoder and tuning the parameters with 32 heads and 3 layers in the conformer block, the accurancy rate boosts to **91.84%**.
+This high accurancy rate of predicting vlidating data is the results of overfitting. Instead, the accurancy rates of predicting training data and validation are increasing during training. In other words, when the accurancy rates of predicting training data increases,  the trained model also identifies vlidating data more and more acurrate.
 
 ![image](https://github.com/Wen-ChuangChou/Speaker-identification/blob/main/doc/fig/acc_conformer_layer_3_head_32%20.png)
 
