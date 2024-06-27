@@ -36,13 +36,9 @@ After implementing conformer encoder and tuning the parameters with 32 heads and
 
 Although the iteration steps for training increase from 70,000 to 400,000, the high accuracy rate of predicting validating data is not the result of overfitting. Instead, both accuracy rates of predicting training data and validation increase during training. In other words, as the accuracy rates of predicting training data increase, the trained model also identifies validating data more accurately. The results indicate that the model is learning meaningful patterns and becoming more adept at generalizing to unseen data.
 
-
 ## Requirements
 PyTorch 1.8.1  
 tqdm 4.65.0
-
-## Acknowledgment
-I an grateful to the Center for Information Services and High Performance Computing [Zentrum für Informationsdienste und Hochleistungsrechnen (ZIH)] at TU Dresden for providing its facilities for high throughput calculations. Part of code snippets are retrieved from the assignment of machine learning course lectured by Prof. Hung-yi Lee at National Taiwan University.
 
 ## Reference
 1. A. Vaswani et al., “Attention Is All You Need,” arXiv:1706.03762, Jun 2017. https://arxiv.org/abs/1706.03762
